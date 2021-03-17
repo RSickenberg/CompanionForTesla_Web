@@ -11,7 +11,7 @@
   "author": "Romain Sickenberg <haux49@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "uikit": "^3.5.10"
+    "uikit": "^3.6.18"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
