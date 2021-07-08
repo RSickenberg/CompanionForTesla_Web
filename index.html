@@ -103,13 +103,13 @@
                 </div>
                 <div class="uk-width-expand">
                     <div>
-                        <img class="uk-animation-slide-bottom-small" data-src="static/img/hero/hero.png" alt="Hero" data-width="740" data-height="1080" uk-img>
+                        <img class="uk-animation-fade" data-src="static/img/hero/hero.png" alt="Hero" data-width="740" data-height="1080" uk-img>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="uk-section uk-section-xlarge uk-section-default uk-margin-medium-top uk-padding-small">
+    <div class="uk-section uk-section-xlarge uk-section-default uk-margin-medium-top uk-padding-small" uk-scrollspy="cls:uk-animation-fade; delay: 450">
         <div class="uk-text-center">
             <p class="uk-heading-medium"><span class="uk-text-bold">Deep dive.</span><br><span class="uk-text-muted">Discover more.</span>
             </p>
@@ -118,7 +118,7 @@
     <div class="uk-section uk-section-default uk-margin-medium-top uk-padding-small">
         <div class="uk-child-width-1-2@m uk-child-width-1-1" uk-grid="parallax:250">
             <div>
-                <div class="uk-width-1-1" uk-scrollspy="cls:uk-animation-slide-left-medium; delay: 500;">
+                <div class="" uk-scrollspy="cls:uk-animation-fade; delay: 700;">
                     <div>
                         <h2 class="uk-heading-small uk-text-bold uk-text-left@m uk-text-center@s">Design</h2>
                         <h3>
@@ -140,7 +140,7 @@
             </div>
             <div class="uk-width-expand">
                 <div>
-                    <img class="uk-align-center" data-src="static/img/hero/design.png" alt="Design" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-slide-right-medium; delay: 500">
+                    <img class="uk-align-center" data-src="static/img/hero/design.png" alt="Design" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-fade; delay: 200">
                 </div>
             </div>
         </div>
@@ -150,10 +150,10 @@
         <div class="uk-child-width-1-2@m uk-child-width-auto uk-align-center uk-flex uk-flex-center" uk-grid="parallax:250">
             <div class="uk-padding-remove">
                 <div>
-                    <img class="uk-align-center" data-src="static/img/hero/func.png" alt="Features" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-slide-left-medium; delay: 500">
+                    <img class="uk-align-center" data-src="static/img/hero/func.png" alt="Features" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-fade; delay: 200">
                 </div>
             </div>
-            <div class="uk-flex-first uk-flex-last@m uk-padding-remove" uk-scrollspy="cls:uk-animation-slide-right-medium; delay: 500">
+            <div class="uk-flex-first uk-flex-last@m uk-padding-remove" uk-scrollspy="cls:uk-animation-fade; delay: 700">
                 <div>
                     <h2 class="uk-heading-small uk-text-bold uk-text-left@m uk-text-center@s">App features</h2>
                     <h3>
@@ -177,7 +177,7 @@
     <div class="uk-section uk-section-default uk-margin-medium-top uk-padding-small">
         <div class="uk-child-width-1-2@m uk-child-width-1-1" uk-grid="parallax:250">
             <div>
-                <div class="uk-width-1-1" uk-scrollspy="cls:uk-animation-slide-left-medium; delay: 500">
+                <div class="uk-padding-remove" uk-scrollspy="cls:uk-animation-fade; delay: 700">
                     <div>
                         <h2 class="uk-heading-small uk-text-bold uk-text-left@m uk-text-center@s">Evolutions & History</h2>
                         <h3>
@@ -195,20 +195,20 @@
             </div>
             <div class="uk-width-expand">
                 <div>
-                    <img class="uk-align-center" data-src="static/img/hero/evo.png" alt="Evolution" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-slide-right-medium; delay: 500">
+                    <img class="uk-align-center" data-src="static/img/hero/evo.png" alt="Evolution" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-fade; delay: 200">
                 </div>
             </div>
         </div>
     </div>
     <hr>
     <div class="uk-section uk-section-default uk-margin-medium-top uk-padding-small">
-        <div class="uk-child-width-1-2@m uk-child-width-auto uk-align-center uk-flex uk-flex-center" uk-grid="parallax:250">
+        <div class="uk-child-width-1-2@m uk-child-width-auto uk-align-center uk-flex uk-flex-center" uk-grid="parallax:100">
             <div class="uk-padding-remove">
                 <div>
-                    <img class="uk-align-center" data-src="static/img/hero/security.png" alt="Security" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-slide-left-medium; delay: 500">
+                    <img class="uk-align-center" data-src="static/img/hero/security.png" alt="Security" width="570" height="741" uk-img uk-scrollspy="cls:uk-animation-fade; delay: 200">
                 </div>
             </div>
-            <div class="uk-flex-first uk-flex-last@m uk-padding-remove" uk-scrollspy="cls:uk-animation-slide-right-medium; delay: 500">
+            <div class="uk-flex-first uk-flex-last@m uk-padding-remove" uk-scrollspy="cls:uk-animation-fade; delay: 700">
                 <div>
                     <h2 class="uk-heading-small uk-text-bold uk-text-left@m uk-text-center@s">Security & Privacy</h2>
                     <h3>
@@ -227,8 +227,8 @@
         </div>
     </div>
 </div>
-<footer uk-scrollspy="cls:uk-animation-slide-top-medium; delay: 500">
-    <div class="uk-section uk-section-default uk-padding-small uk-padding-small">
+<footer uk-scrollspy="cls:uk-animation-slide-bottom-small; delay: 200">
+    <div class="uk-section uk-section-default uk-padding-small uk-margin-large-top">
         <hr>
         <div class="uk-container uk-container-expand-right">
             <div class="uk-child-width-1-2@m uk-child-width-auto uk-align-center uk-flex uk-flex-center uk-margin-medium-top uk-margin-medium-bottom" uk-grid style="align-items: center">
