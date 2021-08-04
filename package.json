@@ -11,23 +11,23 @@
   "author": "Romain Sickenberg <haux49@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "uikit": "^3.7.0"
+    "uikit": "^3.7.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "autoprefixer": "^10.2.6",
+    "@babel/core": "^7.14.8",
+    "autoprefixer": "^10.3.1",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^5.2.6",
-    "cssnano": "^5.0.6",
+    "css-loader": "^5.2.7",
+    "cssnano": "^5.0.7",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.1.0",
     "node-sass": "^6.0.1",
     "postcss-loader": "^6.1.1",
     "sass-loader": "^12.1.0",
-    "style-loader": "^3.0.0",
+    "style-loader": "^3.2.1",
     "svg-sprite-loader": "^6.0.9",
-    "webpack-cli": "^4.7.2",
-    "webpack": "^5.43.0"
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
   }
 }
