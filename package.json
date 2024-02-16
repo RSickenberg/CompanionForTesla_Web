@@ -4,29 +4,28 @@
   "description": "Tesla Companion marketing",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --hot",
     "build": "NODE_ENV=production webpack-cli"
   },
   "author": "Romain Sickenberg <haux49@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "uikit": "^3.14.1"
+    "uikit": "^3.18.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.2.5",
     "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.7.1",
+    "css-loader": "^6.10.0",
     "cssnano": "^5.1.7",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^2.6.0",
-    "node-sass": "^7.0.1",
-    "postcss-loader": "^7.0.1",
-    "sass-loader": "^13.0.2",
-    "style-loader": "^3.3.1",
+    "node-sass": "^9.0.0",
+    "postcss-loader": "^7.3.4",
+    "sass-loader": "^13.3.3",
+    "style-loader": "^3.3.4",
     "svg-sprite-loader": "^6.0.11",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack": "^5.90.2",
+    "webpack-cli": "^4.10.0"
   }
 }
